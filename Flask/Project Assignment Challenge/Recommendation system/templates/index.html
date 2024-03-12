@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+</head>
+<body>
+    <h1>Welcome to the Movie Recommendation System</h1>
+    <form action="/recommend" method="post">
+        <label for="preferences">Select Your Preferences:</label>
+        <select name="preferences" multiple>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="romance">Romance</option>
+            <option value="thriller">Thriller</option>
+            <option value="drama">Drama</option>
+        </select>
+        <input type="submit" value="Get Recommendations">
+    </form>
+</body>
+</html>
